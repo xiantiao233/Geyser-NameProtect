@@ -1,0 +1,4 @@
+name: Geyser-NameProtect-BungeeCord
+main: fun.xiantiao.geysernameprotect.bungee.GeyserNameProtect
+version: 1.0.0
+author: xiantiao

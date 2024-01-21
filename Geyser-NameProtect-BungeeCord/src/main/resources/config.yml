@@ -1,0 +1,17 @@
+#####################################################################
+#
+#     配置文件格式为 ‘YAML’，推荐使用 Visual Studio Code 浏览和编辑。
+#          前往 ‘https://yaml.org/’ 查阅 YAML 配置语法
+#
+#           除了布尔值和整数、浮点数之外的配置，请使用引号包裹起来。
+#
+#    错误报告:   https://github.com/xiantiao/GeyserProtect/issues
+#####################################################################
+
+#踢出消息
+# %player_id% == 玩家名字
+# %player_uuid% == 玩家uuid
+# %geyser_prefix% == 基岩版的前缀
+# %system_time% == 时间戳
+# \n == 换行
+tickMsg: "[AntiUserName] \n 非法的基岩版玩家名称 \n 请非基岩版玩家名称不要以 \"%geyser_prefix%\"开头"
