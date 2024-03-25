@@ -1,6 +1,6 @@
 package fun.xiantiao.geysernameprotect.bukkit;
 
-import org.bstats.bukkit.Metrics;
+import fun.xiantiao.geysernameprotect.bukkit.Metrics;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -23,8 +23,7 @@ public class GeyserNameProtect extends JavaPlugin implements Listener {
         saveDefaultConfig();
         reloadConfig();
 
-        int pluginId = 20793;
-        new Metrics(this, pluginId);
+        new Metrics(this, 20793);
 
         getServer().getPluginManager().registerEvents(this, this);
     }
